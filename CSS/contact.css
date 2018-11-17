@@ -1,9 +1,12 @@
 body {
-  background-image: ("images/towel.jpg");
-  background: #5D5151
+  text-align: center;
+  background: url("images/towel.jpg");
+  background: #5D5151;
+  background-size: cover;
+  font-family: 'Exo', sans-serif;
 }
 h1 {
-  color: green;
+  color: white;
 }
 img {
   display: block;
