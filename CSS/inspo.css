@@ -1,10 +1,11 @@
 body{
 
 }
-h1{
-  colour: blue;
+h1 {
+  color: grey;
+  font-family: 'Exo';
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 50;
 }
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-h1{
-    font-family: 'Exo', sans-serif;
-}
