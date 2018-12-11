@@ -8,7 +8,7 @@
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: tlc 6s linear forwards;
+  animation: mirror 6s linear forwards;
 
 }
 
@@ -16,26 +16,26 @@
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: tlc 6s linear forwards;
+  animation: mirror 6s linear forwards;
 }
 
 #ellp {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: tlc 6s linear forwards;
+  animation: mirror 6s linear forwards;
 }
 
 #ceep {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: tlc 6s linear forwards;
+  animation: mirror 6s linear forwards;
 }
 
 #heartp {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: tlc 6s linear forwards;
+  animation: mirror 6s linear forwards;
 }
