@@ -1,3 +1,28 @@
+body {
+  margin: auto;
+  background: #466368;
+  background: -webkit-linear-gradient(#ffc3a0, #ffafbd);
+  background:    -moz-linear-gradient(#ffc3a0, #ffafbd);
+  background:         linear-gradient(#ffc3a0, #ffafbd);
+  border-radius: 6px;
+   height: 100%;
+}
+h2 {
+  text-align: center;
+}
+button {
+  margin: center;
+  background-color: #E33682
+  border: 2px solid red;
+  color: pink;
+  padding: 32px 16px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  display: center;
+  font-size: 24px;
+}
+
 @keyframes mirror {
   100% {
     stroke-dashoffset: 0;
