@@ -1,0 +1,24 @@
+body{
+
+}
+h1 {
+  color: grey;
+  font-family: 'Exo';
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 150;
+
+}
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+button {
+  font-family: 'Exo';
+  size: 100;
+}
+body {
+  background: #466368;
+  background: -webkit-linear-gradient(#ffc3a0, #ffafbd);
+  background:    -moz-linear-gradient(#ffc3a0, #ffafbd);
+  background:         linear-gradient(#ffc3a0, #ffafbd);
+  border-radius: 6px;
+   height: 100%;
+ }
