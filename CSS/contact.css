@@ -1,9 +1,14 @@
 body {
   text-align: center;
   background: url("images/towel.jpg");
-  background: #5D5151;
-  background-size: cover;
-  font-family: 'Exo', sans-serif;
+  margin: auto;
+  background: #466368;
+  background: -webkit-linear-gradient(#ffc3a0, #ffafbd);
+  background:    -moz-linear-gradient(#ffc3a0, #ffafbd);
+  background:         linear-gradient(#ffc3a0, #ffafbd);
+  border-radius: 6px;
+   height: 100%;
+  font-family: 'Berkshire Swash', cursive;
 }
 h1 {
   color: white;
@@ -13,4 +18,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+li {
+  display: inline;
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: bold;
+  border: 5px solid #0000
 }

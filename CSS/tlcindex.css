@@ -6,9 +6,12 @@ body {
   background:         linear-gradient(#ffc3a0, #ffafbd);
   border-radius: 6px;
    height: 100%;
+  font-family: 'Berkshire Swash', cursive;
 }
-h2 {
+h1 {
   text-align: center;
+  font-family: 'Berkshire Swash', cursive;
+  text: bold;
 }
 button {
   margin: center;
@@ -22,6 +25,12 @@ button {
   display: center;
   font-size: 24px;
 }
+li {
+  display: inline;
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: bold;
+  border: 5px solid #0000
+}
 
 @keyframes mirror {
   100% {
@@ -33,7 +42,7 @@ button {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: mirror 6s linear forwards;
+  animation: mirror 5s linear forwards;
 
 }
 
@@ -41,26 +50,30 @@ button {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: mirror 6s linear forwards;
+  animation: mirror 5s linear forwards;
+  animation-delay: 1s;
 }
 
 #ellp {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: mirror 6s linear forwards;
+  animation: mirror 5s linear forwards;
+  animation-delay: 2s;
 }
 
 #ceep {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: mirror 6s linear forwards;
+  animation: mirror 5s linear forwards;
+  animation-delay: 4s;
 }
 
 #heartp {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   stroke-width: 95;
-  animation: mirror 6s linear forwards;
+  animation: mirror 5s linear forwards;
+  animation-delay:5.5s
 }
