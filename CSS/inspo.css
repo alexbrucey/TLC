@@ -43,5 +43,10 @@ button {
   display: center;
   font-size: 24px;
 }
+li {
+  display: inline;
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: bold;
+  border: 5px solid #0000
 =======
 >>>>>>> 07ffe0e6489cc605cca0308a1f7ff3cbddae52db
