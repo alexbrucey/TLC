@@ -1,3 +1,41 @@
-h1 {
-  color: purple;
+@keyframes mirror {
+  100% {
+    stroke-dashoffset: 0;
+    }
+  }
+
+  #teetopp {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  stroke-width: 95;
+  animation: tlc 6s linear forwards;
+
+}
+
+#teebottomp {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  stroke-width: 95;
+  animation: tlc 6s linear forwards;
+}
+
+#ellp {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  stroke-width: 95;
+  animation: tlc 6s linear forwards;
+}
+
+#ceep {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  stroke-width: 95;
+  animation: tlc 6s linear forwards;
+}
+
+#heartp {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  stroke-width: 95;
+  animation: tlc 6s linear forwards;
 }
